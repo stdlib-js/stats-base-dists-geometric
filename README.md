@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.geometric;
+})();
 })();
 </script>
 ```
@@ -147,9 +149,11 @@ y = dist.logpmf( 2.3 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 console.log( objectKeys( geometric ) );
 
+})();
 })();
 </script>
 </body>
@@ -241,35 +245,35 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/geometric/ctor]: https://github.com/stdlib-js/stats-base-dists-geometric-ctor/tree/umd
+[@stdlib/stats/base/dists/geometric/ctor]: https://github.com/stdlib-js/stats-base-dists-geometric-ctor/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/geometric/entropy]: https://github.com/stdlib-js/stats-base-dists-geometric-entropy/tree/umd
+[@stdlib/stats/base/dists/geometric/entropy]: https://github.com/stdlib-js/stats-base-dists-geometric-entropy/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/geometric/kurtosis]: https://github.com/stdlib-js/stats-base-dists-geometric-kurtosis/tree/umd
+[@stdlib/stats/base/dists/geometric/kurtosis]: https://github.com/stdlib-js/stats-base-dists-geometric-kurtosis/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/geometric/mean]: https://github.com/stdlib-js/stats-base-dists-geometric-mean/tree/umd
+[@stdlib/stats/base/dists/geometric/mean]: https://github.com/stdlib-js/stats-base-dists-geometric-mean/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/geometric/median]: https://github.com/stdlib-js/stats-base-dists-geometric-median/tree/umd
+[@stdlib/stats/base/dists/geometric/median]: https://github.com/stdlib-js/stats-base-dists-geometric-median/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/geometric/mode]: https://github.com/stdlib-js/stats-base-dists-geometric-mode/tree/umd
+[@stdlib/stats/base/dists/geometric/mode]: https://github.com/stdlib-js/stats-base-dists-geometric-mode/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/geometric/skewness]: https://github.com/stdlib-js/stats-base-dists-geometric-skewness/tree/umd
+[@stdlib/stats/base/dists/geometric/skewness]: https://github.com/stdlib-js/stats-base-dists-geometric-skewness/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/geometric/stdev]: https://github.com/stdlib-js/stats-base-dists-geometric-stdev/tree/umd
+[@stdlib/stats/base/dists/geometric/stdev]: https://github.com/stdlib-js/stats-base-dists-geometric-stdev/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/geometric/variance]: https://github.com/stdlib-js/stats-base-dists-geometric-variance/tree/umd
+[@stdlib/stats/base/dists/geometric/variance]: https://github.com/stdlib-js/stats-base-dists-geometric-variance/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/geometric/cdf]: https://github.com/stdlib-js/stats-base-dists-geometric-cdf/tree/umd
+[@stdlib/stats/base/dists/geometric/cdf]: https://github.com/stdlib-js/stats-base-dists-geometric-cdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/geometric/logcdf]: https://github.com/stdlib-js/stats-base-dists-geometric-logcdf/tree/umd
+[@stdlib/stats/base/dists/geometric/logcdf]: https://github.com/stdlib-js/stats-base-dists-geometric-logcdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/geometric/logpmf]: https://github.com/stdlib-js/stats-base-dists-geometric-logpmf/tree/umd
+[@stdlib/stats/base/dists/geometric/logpmf]: https://github.com/stdlib-js/stats-base-dists-geometric-logpmf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/geometric/mgf]: https://github.com/stdlib-js/stats-base-dists-geometric-mgf/tree/umd
+[@stdlib/stats/base/dists/geometric/mgf]: https://github.com/stdlib-js/stats-base-dists-geometric-mgf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/geometric/pmf]: https://github.com/stdlib-js/stats-base-dists-geometric-pmf/tree/umd
+[@stdlib/stats/base/dists/geometric/pmf]: https://github.com/stdlib-js/stats-base-dists-geometric-pmf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/geometric/quantile]: https://github.com/stdlib-js/stats-base-dists-geometric-quantile/tree/umd
+[@stdlib/stats/base/dists/geometric/quantile]: https://github.com/stdlib-js/stats-base-dists-geometric-quantile/tree/umd/tree/umd
 
 <!-- </toc-links> -->
 
