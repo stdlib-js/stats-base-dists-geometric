@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import geometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-geometric/tags). For example,
+
+```javascript
 import geometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Geometric, cdf, entropy, kurtosis, logcdf, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@v0.1.0-deno/mod.js';
+import { Geometric, cdf, entropy, kurtosis, logcdf, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@deno/mod.js';
 ```
 
 #### geometric
@@ -134,7 +139,7 @@ y = dist.logpmf( 2.3 );
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import geometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@v0.1.0-deno/mod.js';
+import geometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@deno/mod.js';
 
 console.log( objectKeys( geometric ) );
 ```
