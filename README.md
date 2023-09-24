@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import geometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@deno/mod.js';
+import geometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Geometric, cdf, entropy, kurtosis, logcdf, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@deno/mod.js';
+import { Geometric, cdf, entropy, kurtosis, logcdf, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@v0.1.0-deno/mod.js';
 ```
 
 #### geometric
@@ -134,7 +134,7 @@ y = dist.logpmf( 2.3 );
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import geometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@deno/mod.js';
+import geometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@v0.1.0-deno/mod.js';
 
 console.log( objectKeys( geometric ) );
 ```
