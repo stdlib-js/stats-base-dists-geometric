@@ -4,205 +4,21 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-03)
+## Unreleased (2024-09-01)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+No changes reported for this release.
 
 </section>
 
 <!-- /.release -->
+
+<section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
 
 <section class="packages">
 
 ### Packages
-
-<section class="package" id="stats-base-dists-geometric-cdf-v0.2.2">
-
-#### [@stdlib/stats/base/dists/geometric/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/cdf)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-entropy-v0.2.2">
-
-#### [@stdlib/stats/base/dists/geometric/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/entropy)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-kurtosis-v0.2.2">
-
-#### [@stdlib/stats/base/dists/geometric/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/kurtosis)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-logcdf-v0.2.2">
-
-#### [@stdlib/stats/base/dists/geometric/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/logcdf)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-logpmf-v0.2.2">
-
-#### [@stdlib/stats/base/dists/geometric/logpmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/logpmf)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-mean-v0.2.2">
-
-#### [@stdlib/stats/base/dists/geometric/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/mean)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-median-v0.2.2">
-
-#### [@stdlib/stats/base/dists/geometric/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/median)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-mgf-v0.2.2">
-
-#### [@stdlib/stats/base/dists/geometric/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/mgf)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-mode-v0.2.2">
-
-#### [@stdlib/stats/base/dists/geometric/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/mode)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-pmf-v0.2.2">
-
-#### [@stdlib/stats/base/dists/geometric/pmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/pmf)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-quantile-v0.2.2">
-
-#### [@stdlib/stats/base/dists/geometric/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/quantile)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-skewness-v0.2.2">
-
-#### [@stdlib/stats/base/dists/geometric/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/skewness)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-stdev-v0.2.2">
-
-#### [@stdlib/stats/base/dists/geometric/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/stdev)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-variance-v0.2.2">
-
-#### [@stdlib/stats/base/dists/geometric/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/variance)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
 
 </section>
 
@@ -235,57 +51,27 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.1">
+
 ## 0.2.1 (2024-02-24)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.2.0">
 
 ## 0.2.0 (2024-02-14)
 
 <section class="packages">
 
 ### Packages
-
-<section class="package" id="stats-base-dists-geometric-v0.2.0">
-
-#### [@stdlib/stats/base/dists/geometric](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-ctor-v0.2.0">
-
-#### [@stdlib/stats/base/dists/geometric/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/ctor)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
 
 </section>
 
@@ -318,6 +104,12 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
 ## 0.1.0 (2023-09-24)
 
 <section class="packages">
@@ -344,8 +136,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -379,8 +170,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -414,8 +204,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -449,8 +238,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -484,8 +272,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -519,8 +306,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -554,8 +340,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -589,8 +374,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -624,8 +408,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -659,8 +442,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -694,8 +476,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -729,8 +510,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -764,8 +544,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -799,8 +578,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -834,8 +612,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -869,8 +646,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ##### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -892,8 +668,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ### BREAKING CHANGES
 
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1 
+-   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -930,157 +705,77 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.7">
+
 ## 0.0.7 (2022-07-08)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.6">
 
 ## 0.0.6 (2022-02-16)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.5">
 
 ## 0.0.5 (2021-08-22)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.4">
 
 ## 0.0.4 (2021-07-07)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.3">
 
 ## 0.0.3 (2021-06-27)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.2">
 
 ## 0.0.2 (2021-06-16)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.1">
 
 ## 0.0.1 (2021-06-15)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<!-- /.release -->
 
