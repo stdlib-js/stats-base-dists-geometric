@@ -4,9 +4,43 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-01)
+## Unreleased (2024-10-11)
 
-No changes reported for this release.
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Philipp Burckhardt
+-   Shivam
+-   shivam Ahir
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`caaf0d9`](https://github.com/stdlib-js/stdlib/commit/caaf0d9f3597fac939a52fb15bdf6465fa0a3125) - **docs:** improve README examples of `stats/base/dists/geometric` namespace [(#1801)](https://github.com/stdlib-js/stdlib/pull/1801) _(by Shivam, Philipp Burckhardt, shivam Ahir)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 </section>
 
