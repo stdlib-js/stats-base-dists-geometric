@@ -35,38 +35,32 @@ limitations under the License.
 
 > Geometric distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-geometric
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-geometric = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var geometric = require( 'path/to/vendor/umd/stats-base-dists-geometric/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.geometric;
-})();
-</script>
+var geometric = require( '@stdlib/stats-base-dists-geometric' );
 ```
 
 #### geometric
@@ -150,21 +144,97 @@ y = dist.logpmf( 2.3 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var geometricRandomFactory = require( '@stdlib/random-base-geometric' ).factory;
+var negativeBinomial = require( '@stdlib/stats-base-dists-negative-binomial' );
+var filledarrayBy = require( '@stdlib/array-filled-by' );
+var variance = require( '@stdlib/stats-base-variance' );
+var linspace = require( '@stdlib/array-base-linspace' );
+var mean = require( '@stdlib/stats-base-mean' );
+var abs = require( '@stdlib/math-base-special-abs' );
+var geometric = require( '@stdlib/stats-base-dists-geometric' );
 
-console.log( objectKeys( geometric ) );
+// Define the success probability:
+var p = 0.3; // Probability of success on each trial
 
-})();
-</script>
-</body>
-</html>
+// Generate an array of x values (number of failures before first success):
+var x = linspace( 0, 10, 11 ); // Geometric distribution is discrete
+
+// Compute the PMF for each x:
+var geometricPMF = geometric.pmf.factory( p );
+var pmf = filledarrayBy( x.length, 'float64', geometricPMF );
+
+// Compute the CDF for each x:
+var geometricCDF = geometric.cdf.factory( p );
+var cdf = filledarrayBy( x.length, 'float64', geometricCDF );
+
+// Output the PMF and CDF values:
+console.log( 'x values:', x );
+console.log( 'PMF values:', pmf );
+console.log( 'CDF values:', cdf );
+
+// Compute statistical properties:
+var theoreticalMean = geometric.mean( p );
+var theoreticalVariance = geometric.variance( p );
+var theoreticalSkewness = geometric.skewness( p );
+var theoreticalKurtosis = geometric.kurtosis( p );
+
+console.log( 'Theoretical Mean:', theoreticalMean );
+console.log( 'Theoretical Variance:', theoreticalVariance );
+console.log( 'Skewness:', theoreticalSkewness );
+console.log( 'Kurtosis:', theoreticalKurtosis );
+
+// Generate random samples from the geometric distribution:
+var rgeom = geometricRandomFactory( p );
+var n = 1000;
+var samples = filledarrayBy( n, 'float64', rgeom );
+
+// Compute sample mean and variance:
+var sampleMean = mean( n, samples, 1 );
+var sampleVariance = variance( n, 1, samples, 1 );
+
+console.log( 'Sample Mean:', sampleMean );
+console.log( 'Sample Variance:', sampleVariance );
+
+// Demonstrate the memoryless property:
+var s = 2.0;
+var t = 3.0;
+var prob1 = ( 1.0 - geometric.cdf( s + t - 1.0, p ) ) /
+    ( 1.0 - geometric.cdf( s - 1.0, p ));
+var prob2 = 1.0 - geometric.cdf( t - 1.0, p );
+
+console.log( 'P(X > s + t | X > s):', prob1 );
+console.log( 'P(X > t):', prob2 );
+console.log( 'Difference:', abs( prob1 - prob2 ) );
+
+// Demonstrate that the sum of k independent geometric random variables follows a negative binomial distribution:
+var k = 5;
+function drawSum() {
+    var sum = 0;
+    var j;
+    for ( j = 0; j < k; j++ ) {
+        sum += rgeom();
+    }
+    return sum;
+}
+var sumSamples = filledarrayBy( n, 'float64', drawSum );
+
+// Compute sample mean and variance for the sum:
+var sumSampleMean = mean( n, sumSamples, 1 );
+var sumSampleVariance = variance( n, 1, sumSamples, 1 );
+
+// Theoretical mean and variance of Negative Binomial distribution:
+var nbMean = negativeBinomial.mean( k, p );
+var nbVariance = negativeBinomial.variance( k, p );
+
+console.log( 'Sum Sample Mean:', sumSampleMean );
+console.log( 'Sum Sample Variance:', sumSampleVariance );
+console.log( 'Negative Binomial Mean:', nbMean );
+console.log( 'Negative Binomial Variance:', nbVariance );
+
+// Compare sample statistics to theoretical values:
+console.log( 'Difference in Mean:', abs( nbMean - sumSampleMean ) );
+console.log( 'Difference in Variance:', abs( nbVariance - sumSampleVariance ) );
 ```
 
 </section>
@@ -255,35 +325,35 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/geometric/ctor]: https://github.com/stdlib-js/stats-base-dists-geometric-ctor/tree/umd
+[@stdlib/stats/base/dists/geometric/ctor]: https://github.com/stdlib-js/stats-base-dists-geometric-ctor
 
-[@stdlib/stats/base/dists/geometric/entropy]: https://github.com/stdlib-js/stats-base-dists-geometric-entropy/tree/umd
+[@stdlib/stats/base/dists/geometric/entropy]: https://github.com/stdlib-js/stats-base-dists-geometric-entropy
 
-[@stdlib/stats/base/dists/geometric/kurtosis]: https://github.com/stdlib-js/stats-base-dists-geometric-kurtosis/tree/umd
+[@stdlib/stats/base/dists/geometric/kurtosis]: https://github.com/stdlib-js/stats-base-dists-geometric-kurtosis
 
-[@stdlib/stats/base/dists/geometric/mean]: https://github.com/stdlib-js/stats-base-dists-geometric-mean/tree/umd
+[@stdlib/stats/base/dists/geometric/mean]: https://github.com/stdlib-js/stats-base-dists-geometric-mean
 
-[@stdlib/stats/base/dists/geometric/median]: https://github.com/stdlib-js/stats-base-dists-geometric-median/tree/umd
+[@stdlib/stats/base/dists/geometric/median]: https://github.com/stdlib-js/stats-base-dists-geometric-median
 
-[@stdlib/stats/base/dists/geometric/mode]: https://github.com/stdlib-js/stats-base-dists-geometric-mode/tree/umd
+[@stdlib/stats/base/dists/geometric/mode]: https://github.com/stdlib-js/stats-base-dists-geometric-mode
 
-[@stdlib/stats/base/dists/geometric/skewness]: https://github.com/stdlib-js/stats-base-dists-geometric-skewness/tree/umd
+[@stdlib/stats/base/dists/geometric/skewness]: https://github.com/stdlib-js/stats-base-dists-geometric-skewness
 
-[@stdlib/stats/base/dists/geometric/stdev]: https://github.com/stdlib-js/stats-base-dists-geometric-stdev/tree/umd
+[@stdlib/stats/base/dists/geometric/stdev]: https://github.com/stdlib-js/stats-base-dists-geometric-stdev
 
-[@stdlib/stats/base/dists/geometric/variance]: https://github.com/stdlib-js/stats-base-dists-geometric-variance/tree/umd
+[@stdlib/stats/base/dists/geometric/variance]: https://github.com/stdlib-js/stats-base-dists-geometric-variance
 
-[@stdlib/stats/base/dists/geometric/cdf]: https://github.com/stdlib-js/stats-base-dists-geometric-cdf/tree/umd
+[@stdlib/stats/base/dists/geometric/cdf]: https://github.com/stdlib-js/stats-base-dists-geometric-cdf
 
-[@stdlib/stats/base/dists/geometric/logcdf]: https://github.com/stdlib-js/stats-base-dists-geometric-logcdf/tree/umd
+[@stdlib/stats/base/dists/geometric/logcdf]: https://github.com/stdlib-js/stats-base-dists-geometric-logcdf
 
-[@stdlib/stats/base/dists/geometric/logpmf]: https://github.com/stdlib-js/stats-base-dists-geometric-logpmf/tree/umd
+[@stdlib/stats/base/dists/geometric/logpmf]: https://github.com/stdlib-js/stats-base-dists-geometric-logpmf
 
-[@stdlib/stats/base/dists/geometric/mgf]: https://github.com/stdlib-js/stats-base-dists-geometric-mgf/tree/umd
+[@stdlib/stats/base/dists/geometric/mgf]: https://github.com/stdlib-js/stats-base-dists-geometric-mgf
 
-[@stdlib/stats/base/dists/geometric/pmf]: https://github.com/stdlib-js/stats-base-dists-geometric-pmf/tree/umd
+[@stdlib/stats/base/dists/geometric/pmf]: https://github.com/stdlib-js/stats-base-dists-geometric-pmf
 
-[@stdlib/stats/base/dists/geometric/quantile]: https://github.com/stdlib-js/stats-base-dists-geometric-quantile/tree/umd
+[@stdlib/stats/base/dists/geometric/quantile]: https://github.com/stdlib-js/stats-base-dists-geometric-quantile
 
 <!-- </toc-links> -->
 
