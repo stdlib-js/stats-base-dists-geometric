@@ -4,491 +4,30 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-14)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="stats-base-dists-geometric-cdf-unreleased">
-
-#### [@stdlib/stats/base/dists/geometric/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/cdf)
-
-<details>
+## Unreleased (2025-06-09)
 
 <section class="features">
 
-##### Features
+### Features
 
--   [`2616db9`](https://github.com/stdlib-js/stdlib/commit/2616db935d792a899cd88d208e06460edfe53723) - add C implementation for `stats/base/dists/geometric/cdf` [(#4203)](https://github.com/stdlib-js/stdlib/pull/4203)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 3 issues were closed in this release:
-
-[#3630](https://github.com/stdlib-js/stdlib/issues/3630), [#5716](https://github.com/stdlib-js/stdlib/issues/5716), [#5789](https://github.com/stdlib-js/stdlib/issues/5789)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-entropy-unreleased">
-
-#### [@stdlib/stats/base/dists/geometric/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/entropy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`9bacbef`](https://github.com/stdlib-js/stdlib/commit/9bacbef38dff0ce594d9abd4f7073b0135cb56b1) - add C implementation for `stats/base/dists/geometric/entropy` [(#4180)](https://github.com/stdlib-js/stdlib/pull/4180)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3631](https://github.com/stdlib-js/stdlib/issues/3631)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-kurtosis-unreleased">
-
-#### [@stdlib/stats/base/dists/geometric/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/kurtosis)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`befc79b`](https://github.com/stdlib-js/stdlib/commit/befc79b8a2b00c3f9b91d0b21bee3ef5006bc91e) - add C implementation for `stats/base/dists/geometric/kurtosis` [(#4092)](https://github.com/stdlib-js/stdlib/pull/4092)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3632](https://github.com/stdlib-js/stdlib/issues/3632), [#5858](https://github.com/stdlib-js/stdlib/issues/5858)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-logcdf-unreleased">
-
-#### [@stdlib/stats/base/dists/geometric/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/logcdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`d269f48`](https://github.com/stdlib-js/stdlib/commit/d269f482403afcd7bab905b05255f66624904998) - add C implementation for `stats/base/dists/geometric/logcdf` [(#4205)](https://github.com/stdlib-js/stdlib/pull/4205)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3633](https://github.com/stdlib-js/stdlib/issues/3633)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-logpmf-unreleased">
-
-#### [@stdlib/stats/base/dists/geometric/logpmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/logpmf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`e63c0b4`](https://github.com/stdlib-js/stdlib/commit/e63c0b409b6ce579268ac14d8f1ca4c3ff0b4390) - add C implementation for `stats/base/dists/geometric/logpmf` [(#4221)](https://github.com/stdlib-js/stdlib/pull/4221)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3634](https://github.com/stdlib-js/stdlib/issues/3634)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-mean-unreleased">
-
-#### [@stdlib/stats/base/dists/geometric/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/mean)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`25c58d7`](https://github.com/stdlib-js/stdlib/commit/25c58d7ac0e986e155529e272d57d076b292da44) - add C implementation for `stats/base/dists/geometric/mean` [(#4089)](https://github.com/stdlib-js/stdlib/pull/4089)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3635](https://github.com/stdlib-js/stdlib/issues/3635)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-median-unreleased">
-
-#### [@stdlib/stats/base/dists/geometric/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/median)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`eac21cf`](https://github.com/stdlib-js/stdlib/commit/eac21cf605e4afe7ab072b71003384002e0f7254) - add C implementation for `stats/base/dists/geometric/quantile` [(#4094)](https://github.com/stdlib-js/stdlib/pull/4094)
 -   [`afc07e7`](https://github.com/stdlib-js/stdlib/commit/afc07e77a91abf49f6b7cb4fcc3d3654f448bfc6) - add C implementation for `stats/base/dists/geometric/median` [(#4091)](https://github.com/stdlib-js/stdlib/pull/4091)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3636](https://github.com/stdlib-js/stdlib/issues/3636), [#5899](https://github.com/stdlib-js/stdlib/issues/5899)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-mgf-unreleased">
-
-#### [@stdlib/stats/base/dists/geometric/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/mgf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ba1dd19`](https://github.com/stdlib-js/stdlib/commit/ba1dd197d12e30a10eac417f13833cfc48dbac5d) - add C implementation for `stats/base/dists/geometric/mgf` [(#4226)](https://github.com/stdlib-js/stdlib/pull/4226)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3637](https://github.com/stdlib-js/stdlib/issues/3637), [#5235](https://github.com/stdlib-js/stdlib/issues/5235)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-mode-unreleased">
-
-#### [@stdlib/stats/base/dists/geometric/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/mode)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`befc79b`](https://github.com/stdlib-js/stdlib/commit/befc79b8a2b00c3f9b91d0b21bee3ef5006bc91e) - add C implementation for `stats/base/dists/geometric/kurtosis` [(#4092)](https://github.com/stdlib-js/stdlib/pull/4092)
+-   [`e63c0b4`](https://github.com/stdlib-js/stdlib/commit/e63c0b409b6ce579268ac14d8f1ca4c3ff0b4390) - add C implementation for `stats/base/dists/geometric/logpmf` [(#4221)](https://github.com/stdlib-js/stdlib/pull/4221)
+-   [`d269f48`](https://github.com/stdlib-js/stdlib/commit/d269f482403afcd7bab905b05255f66624904998) - add C implementation for `stats/base/dists/geometric/logcdf` [(#4205)](https://github.com/stdlib-js/stdlib/pull/4205)
+-   [`2616db9`](https://github.com/stdlib-js/stdlib/commit/2616db935d792a899cd88d208e06460edfe53723) - add C implementation for `stats/base/dists/geometric/cdf` [(#4203)](https://github.com/stdlib-js/stdlib/pull/4203)
+-   [`0025233`](https://github.com/stdlib-js/stdlib/commit/0025233fc631a66f86f0139edd2ee9a37885193f) - add C implementation for `stats/base/dists/geometric/variance` [(#4012)](https://github.com/stdlib-js/stdlib/pull/4012)
 -   [`2511aed`](https://github.com/stdlib-js/stdlib/commit/2511aedc60940f53078c69f487bcf44ed3c6e82b) - add C implementation for `stats/base/dists/geometric/mode` [(#4090)](https://github.com/stdlib-js/stdlib/pull/4090)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3638](https://github.com/stdlib-js/stdlib/issues/3638)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-pmf-unreleased">
-
-#### [@stdlib/stats/base/dists/geometric/pmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/pmf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`ba1dd19`](https://github.com/stdlib-js/stdlib/commit/ba1dd197d12e30a10eac417f13833cfc48dbac5d) - add C implementation for `stats/base/dists/geometric/mgf` [(#4226)](https://github.com/stdlib-js/stdlib/pull/4226)
+-   [`0eac653`](https://github.com/stdlib-js/stdlib/commit/0eac653eabff67cfa2961c05e4474d72e8029a5e) - add C implementation for `stats/base/dists/geometric/stdev` [(#4095)](https://github.com/stdlib-js/stdlib/pull/4095)
+-   [`88134a7`](https://github.com/stdlib-js/stdlib/commit/88134a7c68ac563d731521c5e5a5578ef46fa6b2) - add C implementation for `stats/base/dists/geometric/skewness` [(#4093)](https://github.com/stdlib-js/stdlib/pull/4093)
+-   [`25c58d7`](https://github.com/stdlib-js/stdlib/commit/25c58d7ac0e986e155529e272d57d076b292da44) - add C implementation for `stats/base/dists/geometric/mean` [(#4089)](https://github.com/stdlib-js/stdlib/pull/4089)
+-   [`9bacbef`](https://github.com/stdlib-js/stdlib/commit/9bacbef38dff0ce594d9abd4f7073b0135cb56b1) - add C implementation for `stats/base/dists/geometric/entropy` [(#4180)](https://github.com/stdlib-js/stdlib/pull/4180)
 -   [`ec29387`](https://github.com/stdlib-js/stdlib/commit/ec2938779234c0ae42ffd2da4038e013b0c0e62b) - add C implementation for `stats/base/dists/geometric/pmf` [(#4220)](https://github.com/stdlib-js/stdlib/pull/4220)
 
 </section>
 
 <!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3639](https://github.com/stdlib-js/stdlib/issues/3639)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-quantile-unreleased">
-
-#### [@stdlib/stats/base/dists/geometric/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/quantile)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`eac21cf`](https://github.com/stdlib-js/stdlib/commit/eac21cf605e4afe7ab072b71003384002e0f7254) - add C implementation for `stats/base/dists/geometric/quantile` [(#4094)](https://github.com/stdlib-js/stdlib/pull/4094)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3640](https://github.com/stdlib-js/stdlib/issues/3640), [#5896](https://github.com/stdlib-js/stdlib/issues/5896)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-skewness-unreleased">
-
-#### [@stdlib/stats/base/dists/geometric/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/skewness)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`88134a7`](https://github.com/stdlib-js/stdlib/commit/88134a7c68ac563d731521c5e5a5578ef46fa6b2) - add C implementation for `stats/base/dists/geometric/skewness` [(#4093)](https://github.com/stdlib-js/stdlib/pull/4093)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3641](https://github.com/stdlib-js/stdlib/issues/3641)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-stdev-unreleased">
-
-#### [@stdlib/stats/base/dists/geometric/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/stdev)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0eac653`](https://github.com/stdlib-js/stdlib/commit/0eac653eabff67cfa2961c05e4474d72e8029a5e) - add C implementation for `stats/base/dists/geometric/stdev` [(#4095)](https://github.com/stdlib-js/stdlib/pull/4095)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3642](https://github.com/stdlib-js/stdlib/issues/3642), [#5148](https://github.com/stdlib-js/stdlib/issues/5148)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-variance-unreleased">
-
-#### [@stdlib/stats/base/dists/geometric/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/variance)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0025233`](https://github.com/stdlib-js/stdlib/commit/0025233fc631a66f86f0139edd2ee9a37885193f) - add C implementation for `stats/base/dists/geometric/variance` [(#4012)](https://github.com/stdlib-js/stdlib/pull/4012)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 3 issues were closed in this release:
-
-[#3643](https://github.com/stdlib-js/stdlib/issues/3643), [#5469](https://github.com/stdlib-js/stdlib/issues/5469), [#5719](https://github.com/stdlib-js/stdlib/issues/5719)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="issues">
 
@@ -502,38 +41,13 @@ A total of 23 issues were closed in this release:
 
 <!-- /.issues -->
 
-<section class="contributors">
-
-### Contributors
-
-A total of 15 people contributed to this release. Thank you to the following contributors:
-
--   Aayush Khanna
--   Aksshay Balasubramanian
--   Anshu Kumar
--   Athan Reines
--   Deep Trivedi
--   Harsh
--   Hemant M Mehta
--   Jalaj Kumar
--   Karan Anand
--   Neeraj Pathak
--   Philipp Burckhardt
--   Prashant Kumar Yadav
--   Shivam Ahir
--   ekambains
--   rahulrangers
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`3565318`](https://github.com/stdlib-js/stdlib/commit/3565318e3639b3e44890ed15ccd73560d3cac14c) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`2d4f664`](https://github.com/stdlib-js/stdlib/commit/2d4f664eab1052e4ad6c4fd3414533f490f82e34) - **style:** resolve lint errors [(#5990)](https://github.com/stdlib-js/stdlib/pull/5990) _(by Deep Trivedi)_
 -   [`6174608`](https://github.com/stdlib-js/stdlib/commit/617460893a55638df0a7ebbca569c8c07ce9a85b) - **docs:** fix example return value [(#5874)](https://github.com/stdlib-js/stdlib/pull/5874) _(by Anshu Kumar)_
@@ -575,6 +89,33 @@ A total of 15 people contributed to this release. Thank you to the following con
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 16 people contributed to this release. Thank you to the following contributors:
+
+-   Aayush Khanna
+-   Aksshay Balasubramanian
+-   Anshu Kumar
+-   Athan Reines
+-   Deep Trivedi
+-   Gururaj Gurram
+-   Harsh
+-   Hemant M Mehta
+-   Jalaj Kumar
+-   Karan Anand
+-   Neeraj Pathak
+-   Philipp Burckhardt
+-   Prashant Kumar Yadav
+-   Shivam Ahir
+-   ekambains
+-   rahulrangers
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -582,26 +123,6 @@ A total of 15 people contributed to this release. Thank you to the following con
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
-
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -617,6 +138,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -636,26 +169,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -671,6 +184,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -679,557 +204,15 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.1.0 (2023-09-24)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="stats-base-dists-geometric-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-cdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/cdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-ctor-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/ctor)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-entropy-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/entropy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-kurtosis-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/kurtosis)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-logcdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/logcdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-logpmf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/logpmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/logpmf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-mean-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/mean)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-median-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/median)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-mgf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/mgf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-mode-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/mode)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-pmf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/pmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/pmf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-quantile-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/quantile)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-skewness-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/skewness)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-stdev-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/stdev)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-geometric-variance-v0.1.0">
-
-#### [@stdlib/stats/base/dists/geometric/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/geometric/variance)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -1242,18 +225,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -1271,6 +242,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
