@@ -35,32 +35,20 @@ limitations under the License.
 
 > Geometric distribution.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-base-dists-geometric
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var geometric = require( '@stdlib/stats-base-dists-geometric' );
+import geometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@deno/mod.js';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { Geometric, cdf, entropy, kurtosis, logcdf, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@deno/mod.js';
 ```
 
 #### geometric
@@ -121,7 +109,7 @@ The namespace contains a constructor function for creating a [geometric][geometr
 <!-- </toc> -->
 
 ```javascript
-var Geometric = require( '@stdlib/stats-base-dists-geometric' ).Geometric;
+var Geometric = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric' ).Geometric;
 
 var dist = new Geometric( 0.2 );
 
@@ -145,14 +133,14 @@ y = dist.logpmf( 2.3 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var geometricRandomFactory = require( '@stdlib/random-base-geometric' ).factory;
-var negativeBinomial = require( '@stdlib/stats-base-dists-negative-binomial' );
-var filledarrayBy = require( '@stdlib/array-filled-by' );
-var variance = require( '@stdlib/stats-strided-variance' );
-var linspace = require( '@stdlib/array-base-linspace' );
-var mean = require( '@stdlib/stats-strided-mean' );
-var abs = require( '@stdlib/math-base-special-abs' );
-var geometric = require( '@stdlib/stats-base-dists-geometric' );
+var geometricRandomFactory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-geometric' ).factory;
+import negativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial@deno/mod.js';
+import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
+import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-variance@deno/mod.js';
+import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mean@deno/mod.js';
+import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
+import geometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@deno/mod.js';
 
 // Define the success probability:
 var p = 0.3; // Probability of success on each trial
@@ -258,7 +246,7 @@ console.log( 'Difference in Variance: ', abs( nbVariance - sumSampleVariance ) )
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -325,35 +313,35 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/geometric/ctor]: https://github.com/stdlib-js/stats-base-dists-geometric-ctor
+[@stdlib/stats/base/dists/geometric/ctor]: https://github.com/stdlib-js/stats-base-dists-geometric-ctor/tree/deno
 
-[@stdlib/stats/base/dists/geometric/entropy]: https://github.com/stdlib-js/stats-base-dists-geometric-entropy
+[@stdlib/stats/base/dists/geometric/entropy]: https://github.com/stdlib-js/stats-base-dists-geometric-entropy/tree/deno
 
-[@stdlib/stats/base/dists/geometric/kurtosis]: https://github.com/stdlib-js/stats-base-dists-geometric-kurtosis
+[@stdlib/stats/base/dists/geometric/kurtosis]: https://github.com/stdlib-js/stats-base-dists-geometric-kurtosis/tree/deno
 
-[@stdlib/stats/base/dists/geometric/mean]: https://github.com/stdlib-js/stats-base-dists-geometric-mean
+[@stdlib/stats/base/dists/geometric/mean]: https://github.com/stdlib-js/stats-base-dists-geometric-mean/tree/deno
 
-[@stdlib/stats/base/dists/geometric/median]: https://github.com/stdlib-js/stats-base-dists-geometric-median
+[@stdlib/stats/base/dists/geometric/median]: https://github.com/stdlib-js/stats-base-dists-geometric-median/tree/deno
 
-[@stdlib/stats/base/dists/geometric/mode]: https://github.com/stdlib-js/stats-base-dists-geometric-mode
+[@stdlib/stats/base/dists/geometric/mode]: https://github.com/stdlib-js/stats-base-dists-geometric-mode/tree/deno
 
-[@stdlib/stats/base/dists/geometric/skewness]: https://github.com/stdlib-js/stats-base-dists-geometric-skewness
+[@stdlib/stats/base/dists/geometric/skewness]: https://github.com/stdlib-js/stats-base-dists-geometric-skewness/tree/deno
 
-[@stdlib/stats/base/dists/geometric/stdev]: https://github.com/stdlib-js/stats-base-dists-geometric-stdev
+[@stdlib/stats/base/dists/geometric/stdev]: https://github.com/stdlib-js/stats-base-dists-geometric-stdev/tree/deno
 
-[@stdlib/stats/base/dists/geometric/variance]: https://github.com/stdlib-js/stats-base-dists-geometric-variance
+[@stdlib/stats/base/dists/geometric/variance]: https://github.com/stdlib-js/stats-base-dists-geometric-variance/tree/deno
 
-[@stdlib/stats/base/dists/geometric/cdf]: https://github.com/stdlib-js/stats-base-dists-geometric-cdf
+[@stdlib/stats/base/dists/geometric/cdf]: https://github.com/stdlib-js/stats-base-dists-geometric-cdf/tree/deno
 
-[@stdlib/stats/base/dists/geometric/logcdf]: https://github.com/stdlib-js/stats-base-dists-geometric-logcdf
+[@stdlib/stats/base/dists/geometric/logcdf]: https://github.com/stdlib-js/stats-base-dists-geometric-logcdf/tree/deno
 
-[@stdlib/stats/base/dists/geometric/logpmf]: https://github.com/stdlib-js/stats-base-dists-geometric-logpmf
+[@stdlib/stats/base/dists/geometric/logpmf]: https://github.com/stdlib-js/stats-base-dists-geometric-logpmf/tree/deno
 
-[@stdlib/stats/base/dists/geometric/mgf]: https://github.com/stdlib-js/stats-base-dists-geometric-mgf
+[@stdlib/stats/base/dists/geometric/mgf]: https://github.com/stdlib-js/stats-base-dists-geometric-mgf/tree/deno
 
-[@stdlib/stats/base/dists/geometric/pmf]: https://github.com/stdlib-js/stats-base-dists-geometric-pmf
+[@stdlib/stats/base/dists/geometric/pmf]: https://github.com/stdlib-js/stats-base-dists-geometric-pmf/tree/deno
 
-[@stdlib/stats/base/dists/geometric/quantile]: https://github.com/stdlib-js/stats-base-dists-geometric-quantile
+[@stdlib/stats/base/dists/geometric/quantile]: https://github.com/stdlib-js/stats-base-dists-geometric-quantile/tree/deno
 
 <!-- </toc-links> -->
 
