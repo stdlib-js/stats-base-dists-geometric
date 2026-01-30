@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-08-18)
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
@@ -47,6 +47,14 @@ A total of 24 issues were closed in this release:
 
 <details>
 
+-   [`3c6ce73`](https://github.com/stdlib-js/stdlib/commit/3c6ce73fcba6d4e4228609ef4dd23297c7dce41d) - **docs:** remove unused include _(by Athan Reines)_
+-   [`27f8d66`](https://github.com/stdlib-js/stdlib/commit/27f8d6680258f746da15c2f5af7a712a57886492) - **chore:** fix missing closing section tag in README [(#9930)](https://github.com/stdlib-js/stdlib/pull/9930) _(by pxxad, Athan Reines)_
+-   [`96537c4`](https://github.com/stdlib-js/stdlib/commit/96537c4a420cfd9517b9033531bde46eeb8c7ea4) - **chore:** clean-up examples _(by Athan Reines)_
+-   [`50b3a2c`](https://github.com/stdlib-js/stdlib/commit/50b3a2c95317bf69b879709c648aacf908439c16) - **docs:** fix function name tags _(by Philipp Burckhardt)_
+-   [`d61ac9c`](https://github.com/stdlib-js/stdlib/commit/d61ac9c7ba00677bfde2c2fbc039db20ef9b2ce2) - **docs:** fix README sections _(by Athan Reines)_
+-   [`93de48b`](https://github.com/stdlib-js/stdlib/commit/93de48be828ed50d6116f13eb9f4812e2c0bcf6a) - **docs:** replace manual `for` loop in examples [(#8048)](https://github.com/stdlib-js/stdlib/pull/8048) _(by Harsh Yadav)_
+-   [`d3c3d08`](https://github.com/stdlib-js/stdlib/commit/d3c3d083f564d82302b8351359955034f34789e3) - **docs:** replace manual `for` loop in examples [(#8047)](https://github.com/stdlib-js/stdlib/pull/8047) _(by Harsh Yadav)_
+-   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
@@ -60,7 +68,7 @@ A total of 24 issues were closed in this release:
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`2d4f664`](https://github.com/stdlib-js/stdlib/commit/2d4f664eab1052e4ad6c4fd3414533f490f82e34) - **style:** resolve lint errors [(#5990)](https://github.com/stdlib-js/stdlib/pull/5990) _(by Deep Trivedi)_
 -   [`6174608`](https://github.com/stdlib-js/stdlib/commit/617460893a55638df0a7ebbca569c8c07ce9a85b) - **docs:** fix example return value [(#5874)](https://github.com/stdlib-js/stdlib/pull/5874) _(by Anshu Kumar)_
--   [`7036b32`](https://github.com/stdlib-js/stdlib/commit/7036b3205e9c2afc5123cec375559f8a7da0c0b3) - **chore:** address commit comment [(#5972)](https://github.com/stdlib-js/stdlib/pull/5972) _(by Harsh)_
+-   [`7036b32`](https://github.com/stdlib-js/stdlib/commit/7036b3205e9c2afc5123cec375559f8a7da0c0b3) - **chore:** address commit comment [(#5972)](https://github.com/stdlib-js/stdlib/pull/5972) _(by Harsh Yadav)_
 -   [`eac21cf`](https://github.com/stdlib-js/stdlib/commit/eac21cf605e4afe7ab072b71003384002e0f7254) - **feat:** add C implementation for `stats/base/dists/geometric/quantile` [(#4094)](https://github.com/stdlib-js/stdlib/pull/4094) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`afc07e7`](https://github.com/stdlib-js/stdlib/commit/afc07e77a91abf49f6b7cb4fcc3d3654f448bfc6) - **feat:** add C implementation for `stats/base/dists/geometric/median` [(#4091)](https://github.com/stdlib-js/stdlib/pull/4091) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`c15b20d`](https://github.com/stdlib-js/stdlib/commit/c15b20d261d1422de5278b068ef3a941d49b059e) - **chore:** address commit comment  [(#5827)](https://github.com/stdlib-js/stdlib/pull/5827) _(by Hemant M Mehta)_
@@ -74,9 +82,9 @@ A total of 24 issues were closed in this release:
 -   [`0025233`](https://github.com/stdlib-js/stdlib/commit/0025233fc631a66f86f0139edd2ee9a37885193f) - **feat:** add C implementation for `stats/base/dists/geometric/variance` [(#4012)](https://github.com/stdlib-js/stdlib/pull/4012) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
 -   [`2511aed`](https://github.com/stdlib-js/stdlib/commit/2511aedc60940f53078c69f487bcf44ed3c6e82b) - **feat:** add C implementation for `stats/base/dists/geometric/mode` [(#4090)](https://github.com/stdlib-js/stdlib/pull/4090) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
--   [`c15d420`](https://github.com/stdlib-js/stdlib/commit/c15d420088984080d6fb3b14d791dcee61e0c673) - **chore:** address commit comments [(#5261)](https://github.com/stdlib-js/stdlib/pull/5261) _(by Harsh)_
+-   [`c15d420`](https://github.com/stdlib-js/stdlib/commit/c15d420088984080d6fb3b14d791dcee61e0c673) - **chore:** address commit comments [(#5261)](https://github.com/stdlib-js/stdlib/pull/5261) _(by Harsh Yadav)_
 -   [`ba1dd19`](https://github.com/stdlib-js/stdlib/commit/ba1dd197d12e30a10eac417f13833cfc48dbac5d) - **feat:** add C implementation for `stats/base/dists/geometric/mgf` [(#4226)](https://github.com/stdlib-js/stdlib/pull/4226) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
--   [`70019dd`](https://github.com/stdlib-js/stdlib/commit/70019ddf8248acad69408092d933236e206bdd8c) - **docs:** fix return value [(#5184)](https://github.com/stdlib-js/stdlib/pull/5184) _(by ekambains)_
+-   [`70019dd`](https://github.com/stdlib-js/stdlib/commit/70019ddf8248acad69408092d933236e206bdd8c) - **docs:** fix return value [(#5184)](https://github.com/stdlib-js/stdlib/pull/5184) _(by Ekampreet Singh Bains)_
 -   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`0eac653`](https://github.com/stdlib-js/stdlib/commit/0eac653eabff67cfa2961c05e4474d72e8029a5e) - **feat:** add C implementation for `stats/base/dists/geometric/stdev` [(#4095)](https://github.com/stdlib-js/stdlib/pull/4095) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`bce4dac`](https://github.com/stdlib-js/stdlib/commit/bce4dac63618cd50985d7875d89933c116cd185d) - **bench:** refactor random number generation in `stats/base/dists/geometric` [(#4931)](https://github.com/stdlib-js/stdlib/pull/4931) _(by Karan Anand, stdlib-bot)_
@@ -102,15 +110,16 @@ A total of 24 issues were closed in this release:
 
 ### Contributors
 
-A total of 17 people contributed to this release. Thank you to the following contributors:
+A total of 18 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aksshay Balasubramanian
 -   Anshu Kumar
 -   Athan Reines
 -   Deep Trivedi
+-   Ekampreet Singh Bains
 -   Gururaj Gurram
--   Harsh
+-   Harsh Yadav
 -   Hemant M Mehta
 -   Jalaj Kumar
 -   Karan Anand
@@ -119,7 +128,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
 -   Shivam Ahir
--   ekambains
+-   pxxad
 -   rahulrangers
 
 </section>
