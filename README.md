@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import geometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-geometric/tags). For example,
+
+```javascript
 import geometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Geometric, cdf, entropy, kurtosis, logcdf, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@v0.3.0-esm/index.mjs';
+import { Geometric, cdf, entropy, kurtosis, logcdf, logpmf, mean, median, mgf, mode, pmf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@esm/index.mjs';
 ```
 
 #### geometric
@@ -145,7 +150,7 @@ import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-varian
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
 import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mean@esm/index.mjs';
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@esm/index.mjs';
-import geometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@v0.3.0-esm/index.mjs';
+import geometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric@esm/index.mjs';
 
 // Define the success probability:
 var p = 0.3; // Probability of success on each trial
