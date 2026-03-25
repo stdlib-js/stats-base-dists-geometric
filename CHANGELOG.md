@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-09)
+## Unreleased (2026-03-25)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#10978](https://github.com/stdlib-js/stdlib/issues/10978)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,10 @@
 
 <details>
 
+-   [`18f1915`](https://github.com/stdlib-js/stdlib/commit/18f191560f9322727ee126619e9e083187b64821) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`4f32811`](https://github.com/stdlib-js/stdlib/commit/4f3281135aa10fd6a204e9f7d1776e16615bafe1) - **chore:** address commit comments for commit `bfbe62b` [(#10998)](https://github.com/stdlib-js/stdlib/pull/10998) _(by Blessed Oigbochie)_
+-   [`c4d51db`](https://github.com/stdlib-js/stdlib/commit/c4d51db1fe762c0ab12fab22a7840440ea3cebb0) - **docs:** correct C return annotation in `stats/base/dists/geometric/stdev` [(#11050)](https://github.com/stdlib-js/stdlib/pull/11050) _(by Om Anand)_
+-   [`bfbe62b`](https://github.com/stdlib-js/stdlib/commit/bfbe62b4e300e4019c4601f755b0bc8565f184dc) - **test:** add tests to `stats/base/dists/geometric/mgf` [(#10483)](https://github.com/stdlib-js/stdlib/pull/10483) _(by Vishal..)_
 -   [`f886d31`](https://github.com/stdlib-js/stdlib/commit/f886d3153a4fd2e2270db0475ba4a4ece0a5d26e) - **docs:** fix orphaned section comments in `stats/base/dists/geometric` READMEs _(by Philipp Burckhardt)_
 -   [`4fb4995`](https://github.com/stdlib-js/stdlib/commit/4fb49958095bee6d0cfee8b5d63fcfdf94f87e6e) - **docs:** fix missing and malformed section tags in README files _(by Philipp Burckhardt)_
 -   [`45e5fab`](https://github.com/stdlib-js/stdlib/commit/45e5fabec7c1617c1aa88cc757ade2f799221a38) - **bench:** refactor to use string interpolation in `stats/base/dists/geometric` [(#10361)](https://github.com/stdlib-js/stdlib/pull/10361) _(by Vishal Gaikwad, Athan Reines)_
@@ -28,11 +44,14 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Blessed Oigbochie
+-   Om Anand
 -   Philipp Burckhardt
 -   Vishal Gaikwad
+-   Vishal..
 
 </section>
 
