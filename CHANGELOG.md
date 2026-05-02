@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-25)
+## Unreleased (2026-05-02)
 
 <section class="issues">
 
@@ -24,6 +24,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`cc0ab62`](https://github.com/stdlib-js/stdlib/commit/cc0ab62448395c0044c20fa8de044752a4edace2) - **docs:** add missing trailing periods in README descriptions [(#11751)](https://github.com/stdlib-js/stdlib/pull/11751) _(by Philipp Burckhardt)_
+-   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
 -   [`18f1915`](https://github.com/stdlib-js/stdlib/commit/18f191560f9322727ee126619e9e083187b64821) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`4f32811`](https://github.com/stdlib-js/stdlib/commit/4f3281135aa10fd6a204e9f7d1776e16615bafe1) - **chore:** address commit comments for commit `bfbe62b` [(#10998)](https://github.com/stdlib-js/stdlib/pull/10998) _(by Blessed Oigbochie)_
 -   [`c4d51db`](https://github.com/stdlib-js/stdlib/commit/c4d51db1fe762c0ab12fab22a7840440ea3cebb0) - **docs:** correct C return annotation in `stats/base/dists/geometric/stdev` [(#11050)](https://github.com/stdlib-js/stdlib/pull/11050) _(by Om Anand)_
