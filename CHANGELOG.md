@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-02)
+## Unreleased (2026-06-10)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`5d9b12d`](https://github.com/stdlib-js/stdlib/commit/5d9b12d1437c68dca5d2ecd84b1407e756893dbf) - rename `logpdf` to `logpmf` in `base/dists/geometric/ctor` [(#12500)](https://github.com/stdlib-js/stdlib/pull/12500)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -24,6 +34,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
+-   [`5d9b12d`](https://github.com/stdlib-js/stdlib/commit/5d9b12d1437c68dca5d2ecd84b1407e756893dbf) - **fix:** rename `logpdf` to `logpmf` in `base/dists/geometric/ctor` [(#12500)](https://github.com/stdlib-js/stdlib/pull/12500) _(by Philipp Burckhardt)_
 -   [`cc0ab62`](https://github.com/stdlib-js/stdlib/commit/cc0ab62448395c0044c20fa8de044752a4edace2) - **docs:** add missing trailing periods in README descriptions [(#11751)](https://github.com/stdlib-js/stdlib/pull/11751) _(by Philipp Burckhardt)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
 -   [`18f1915`](https://github.com/stdlib-js/stdlib/commit/18f191560f9322727ee126619e9e083187b64821) - **chore:** minor clean-up _(by Philipp Burckhardt)_
