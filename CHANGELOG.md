@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-27)
+## Unreleased (2026-09-15)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,12 @@ This release closes the following issue:
 
 <details>
 
+-   [`eb5e7ed`](https://github.com/stdlib-js/stdlib/commit/eb5e7edf87faec222316b9058ae0d63015359348) - **test:** migrate `stats/base/dists/geometric/pmf` to ULP-based assertions [(#15058)](https://github.com/stdlib-js/stdlib/pull/15058) _(by Athan Reines)_
+-   [`6c9bdfd`](https://github.com/stdlib-js/stdlib/commit/6c9bdfd6f20da7c28582184769cf0eb88ec49f13) - **test:** migrate `stats/base/dists/geometric/cdf` to ULP-based assertions [(#14915)](https://github.com/stdlib-js/stdlib/pull/14915) _(by Philipp Burckhardt)_
+-   [`85b3a45`](https://github.com/stdlib-js/stdlib/commit/85b3a459163a126fbb0966fdc2c177438c8765d6) - **test:** migrate `stats/base/dists/geometric/entropy` to ULP-based assertions [(#14674)](https://github.com/stdlib-js/stdlib/pull/14674) _(by Athan Reines)_
+-   [`9c96a01`](https://github.com/stdlib-js/stdlib/commit/9c96a0129ff0499f2f9c6dae4b89bdf462d1ada1) - **test:** migrate `stats/base/dists/geometric/stdev` to ULP-based assertions [(#14385)](https://github.com/stdlib-js/stdlib/pull/14385) _(by Athan Reines)_
+-   [`448c54b`](https://github.com/stdlib-js/stdlib/commit/448c54bdaf9e6e29fc31c6ed94de4cc1f41c1101) - **chore:** clean-up [(#14292)](https://github.com/stdlib-js/stdlib/pull/14292) _(by Philipp Burckhardt)_
+-   [`a99a888`](https://github.com/stdlib-js/stdlib/commit/a99a888df351eb6eac886656662a91de9ed5f48a) - **docs:** fix typo [(#14277)](https://github.com/stdlib-js/stdlib/pull/14277) _(by Philipp Burckhardt, Athan Reines)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
 -   [`77195c3`](https://github.com/stdlib-js/stdlib/commit/77195c343d9d48e264a58f8ec213d0df53ca7317) - **docs:** update namespace table of contents [(#12835)](https://github.com/stdlib-js/stdlib/pull/12835) _(by stdlib-bot)_
