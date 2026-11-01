@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-15)
+## Unreleased (2026-11-01)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,15 @@ This release closes the following issue:
 
 <details>
 
+-   [`39d1052`](https://github.com/stdlib-js/stdlib/commit/39d1052bee15c88022006fbb4bf09e51f66516f4) - **test:** migrate `stats/base/dists/geometric/median` to ULP-based assertions [(#16085)](https://github.com/stdlib-js/stdlib/pull/16085) _(by Athan Reines)_
+-   [`49bccbc`](https://github.com/stdlib-js/stdlib/commit/49bccbc505250dc86033c560f965a6e2c8b874f5) - **test:** migrate `stats/base/dists/geometric/quantile` to ULP-based assertions [(#16078)](https://github.com/stdlib-js/stdlib/pull/16078) _(by Athan Reines)_
+-   [`4148aea`](https://github.com/stdlib-js/stdlib/commit/4148aead340fda93803850da67115d2b25d3debb) - **test:** migrate `stats/base/dists/geometric/mgf` to ULP-based assertions [(#15911)](https://github.com/stdlib-js/stdlib/pull/15911) _(by Athan Reines)_
+-   [`7200560`](https://github.com/stdlib-js/stdlib/commit/72005604371984284d267d69d01e5a48af420655) - **test:** migrate `stats/base/dists/geometric/kurtosis` to ULP-based assertions [(#15915)](https://github.com/stdlib-js/stdlib/pull/15915) _(by Athan Reines)_
+-   [`afb1781`](https://github.com/stdlib-js/stdlib/commit/afb17814b4e3ef33b4e07eeb4d3869bdebbf32a2) - **test:** migrate `stats/base/dists/geometric/logpmf` to ULP-based assertions [(#15543)](https://github.com/stdlib-js/stdlib/pull/15543) _(by Athan Reines)_
+-   [`ca4d851`](https://github.com/stdlib-js/stdlib/commit/ca4d8510677f98c7f482bbd7aba1cb265a48d1e9) - **test:** migrate `stats/base/dists/geometric/mean` to ULP-based assertions [(#15491)](https://github.com/stdlib-js/stdlib/pull/15491) _(by Philipp Burckhardt)_
+-   [`9c06c6d`](https://github.com/stdlib-js/stdlib/commit/9c06c6d1177830e2ea74b9ded0e2354dc378ddb9) - **test:** migrate `stats/base/dists/geometric/variance` to ULP-based assertions [(#15451)](https://github.com/stdlib-js/stdlib/pull/15451) _(by Philipp Burckhardt)_
+-   [`23f8bbf`](https://github.com/stdlib-js/stdlib/commit/23f8bbf093077a12a55c71552c5a4eac5a1fffe7) - **test:** migrate `stats/base/dists/geometric/logcdf` to ULP-based assertions [(#15327)](https://github.com/stdlib-js/stdlib/pull/15327) _(by Athan Reines)_
+-   [`52b78ca`](https://github.com/stdlib-js/stdlib/commit/52b78ca000beedfa7fa064e16ffb9fe661935855) - **test:** migrate `stats/base/dists/geometric/skewness` to ULP-based assertions [(#15362)](https://github.com/stdlib-js/stdlib/pull/15362) _(by Athan Reines)_
 -   [`eb5e7ed`](https://github.com/stdlib-js/stdlib/commit/eb5e7edf87faec222316b9058ae0d63015359348) - **test:** migrate `stats/base/dists/geometric/pmf` to ULP-based assertions [(#15058)](https://github.com/stdlib-js/stdlib/pull/15058) _(by Athan Reines)_
 -   [`6c9bdfd`](https://github.com/stdlib-js/stdlib/commit/6c9bdfd6f20da7c28582184769cf0eb88ec49f13) - **test:** migrate `stats/base/dists/geometric/cdf` to ULP-based assertions [(#14915)](https://github.com/stdlib-js/stdlib/pull/14915) _(by Philipp Burckhardt)_
 -   [`85b3a45`](https://github.com/stdlib-js/stdlib/commit/85b3a459163a126fbb0966fdc2c177438c8765d6) - **test:** migrate `stats/base/dists/geometric/entropy` to ULP-based assertions [(#14674)](https://github.com/stdlib-js/stdlib/pull/14674) _(by Athan Reines)_
